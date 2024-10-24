@@ -5,11 +5,13 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetera.API", "Meetera.API\Meetera.API.csproj", "{DB4FA014-031F-4A97-BF6C-49E739D12525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetera.Domain", "Meetera.Domain\Meetera.Domain.csproj", "{5E72CA5B-C485-4249-9167-E534111B8B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetera.Domain", "Meetera.Domain\Meetera.Domain.csproj", "{5E72CA5B-C485-4249-9167-E534111B8B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetera.Application", "Meetera.Application\Meetera.Application.csproj", "{84A0ADDC-E280-46E6-94DB-AA8A80C8700F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetera.Application", "Meetera.Application\Meetera.Application.csproj", "{84A0ADDC-E280-46E6-94DB-AA8A80C8700F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetera.Infrastructure", "Meetera.Infrastructure\Meetera.Infrastructure.csproj", "{117FD002-BFA1-482C-83DA-86F4CC2AD6C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetera.Infrastructure", "Meetera.Infrastructure\Meetera.Infrastructure.csproj", "{117FD002-BFA1-482C-83DA-86F4CC2AD6C8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0719E333-DCB5-4B25-8019-6B7590B242CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{117FD002-BFA1-482C-83DA-86F4CC2AD6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{117FD002-BFA1-482C-83DA-86F4CC2AD6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{117FD002-BFA1-482C-83DA-86F4CC2AD6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0719E333-DCB5-4B25-8019-6B7590B242CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0719E333-DCB5-4B25-8019-6B7590B242CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0719E333-DCB5-4B25-8019-6B7590B242CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0719E333-DCB5-4B25-8019-6B7590B242CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
