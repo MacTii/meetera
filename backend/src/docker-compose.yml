@@ -1,0 +1,6 @@
+services:
+  meetera.api:
+    image: ${DOCKER_REGISTRY-}meeteraapi
+    build:
+      context: .
+      dockerfile: Meetera.API/Dockerfile
